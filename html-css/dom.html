@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom.js" defer></script>
+</head>
+
+<body>
+    <p class="class1"> hey class1</p>
+    <p class="class1">hey class2</p>
+    sdfsd
+    <p id="demo">
+    </p>
+    <p class="classdemo">hey classdemo</p>
+    <script>
+        document.getElementById("demo").innerHTML = "hey raghav how are you feeling?";
+
+        function para() {
+            var numOfPara = document.getElementsByTagName("p");
+            var num = numOfPara.length;
+            alert("there are " + num + " paras");
+        }
+
+        // var x = document.getElementsByClassName("classdemo").length;
+        // console.log(x);
+    </script>
+    <button onclick="para();">total paras</button>
+</body>
+
+</html>
