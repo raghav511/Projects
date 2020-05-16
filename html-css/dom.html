@@ -5,16 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="dom.js" defer></script>
 </head>
 
 <body>
+    <!--selecting dom element-->
     <p class="class1"> hey class1</p>
     <p class="class1">hey class2</p>
     sdfsd
     <p id="demo">
     </p>
-    <p class="classdemo">hey classdemo</p>
+
+    <!--events-->
+    <!--on click-->
+    <h1 onclick="this.innerHTML='koding'">what is your hobby?</h1>
+    <h1 onclick="myfunction(this)">click to change color :)</h1>
+    <h1 id='mybutton'><button onclick="myfunction(this)">button to change color</button></h1>
+    <h1 onclick="this.innerHTML='Doctor'">what is your favourite proffession?</h1>
+    <!--on load-->
+    <!--on input-->
+    <!--on mouse over-->
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" class="box">
+        Mouse Over Me</div>
+    <h1 onmouseover="mouseIn(this)" onmouseout="mouseout(this)" class="box">my mouse over me</h1>
+
+    <!--addEventListener-->
+    <h1 id="box1">event listener</h1>
+
+
+    <!--nodes creating element and text inside it-->
+    <div id="div1">
+        <p id=p1>this is the first para</p>
+        <p id="p2">this is second para</p>
+    </div>
+
+
+
+
+
+    <!-- <p class="classdemo">hey classdemo</p>
     <script>
         document.getElementById("demo").innerHTML = "hey raghav how are you feeling?";
 
@@ -27,7 +57,9 @@
         // var x = document.getElementsByClassName("classdemo").length;
         // console.log(x);
     </script>
-    <button onclick="para();">total paras</button>
+    <button onclick="para();">total paras</button> 
+-->
+
 </body>
 
 </html>

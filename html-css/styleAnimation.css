@@ -1,0 +1,24 @@
+body {
+    background: PeachPuff;
+}
+
+#myContainer {
+    width: 430px;
+    height: 369px;
+    position: relative;
+    background: rgb(40, 146, 40);
+}
+
+#myAnimation {
+    position: absolute;
+    background-color: white;
+    color: black;
+}
+
+#item {
+    background: blue;
+    position: absolute;
+    height: 75px;
+    width: 200px;
+    margin: 100px;
+}
