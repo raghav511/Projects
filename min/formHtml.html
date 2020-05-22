@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            margin: 2%;
+        }
+
+        input {
+            margin: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="enter your full name" autofocus required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="enter a valid email address" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="please enter your email password"
+                required> </input>
+        </fieldset>
+        <br>
+        <br>
+        <label for="occupation">Occupation:</label>
+        <input type="radio" name="occupation" id="occupation" value="student">Student</input>
+        <input type="radio" name="occupation" id="occupation" value="occupation">Proffessional</input>
+        <br>
+        <br>
+        <label for="languages">Languages</label>
+        <input type="checkbox" name="programming_language" id="languages" value="html">HTML</input>
+        <input type="checkbox" name="programming_language" id="languages" value="javascript">Javascript</input>
+        <input type="checkbox" name="programming_language" id="languages" value="python">Python</input>
+        <br>
+        <br>
+        <label for="comment">Comments</label>
+        <textarea name="comment_section" id="comment" cols="30" rows="10">Add your comments here</textarea>
+        <br>
+        <br>
+        <label for="dropdown">Dropdown</label>
+        <select name="dropdown" id="dropdown">
+            <option value="op1">Option1</option>
+            <option value="op2">Option2</option>
+            <option value="op3">Option3</option>
+            <option value="op4">Option4</option>
+            <option value="op5">Option5</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
